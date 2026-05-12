@@ -7,7 +7,7 @@
 * clonez le repo de référence
 
   ```
-  git clone git@github.com:ue12-p25/git-tp-clone-pull-for-teacher.git groupe2
+  git clone git@github.com:ue12-p26/git-tp-clone-pull-for-teacher.git groupe2
   cd groupe2
   ```
 
@@ -20,17 +20,17 @@
   car le script va publier avec `git push --force` **dans votre repo de groupe**, et il ne faut pas que ça se mélange avec le repo de référence
 
 * créez sur github un repo public qui s'appelle genre  
-  <https://github.com/ue12-p25/git-tp-clone-pull-groupe2>  
+  <https://github.com/ue12-p26/git-tp-clone-pull-groupe2>  
   si vous pratiquez github sur la ligne de commande, ça donne
 
   ```bash
-  gh repo create --public ue12-p25/git-tp-clone-pull-groupe2
+  gh repo create --public ue12-p26/git-tp-clone-pull-groupe2
   ```
 
 * et pour le remplir:
 
   ```bash
-  git remote add origin git@github.com:ue12-p25/git-tp-clone-pull-groupe2.git
+  git remote add origin git@github.com:ue12-p26/git-tp-clone-pull-groupe2.git
   git branch -M main
   git push -u origin main
   ```
